@@ -26,7 +26,12 @@ const onValidate = () => {
       ¿Te atreves a jugar?
     </div>
     <CHelpText class="mt-4">
-      Recuerda que la sucesión siempre comienza por 0 y 1
+      <p>
+        Recuerda que la sucesión siempre comienza por 0 y 1.
+      </p>
+      <p>
+        Los valores se van introduciendo de 1 a la vez.
+      </p>
     </CHelpText>
 
     <div py-4 />
