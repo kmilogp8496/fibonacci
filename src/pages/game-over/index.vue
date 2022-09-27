@@ -12,7 +12,7 @@ const router = useRouter()
     </p>
 
     <p text-sm opacity-75>
-      Has introducido un valor incorrecto, esférzate para la próxima.
+      Has introducido un valor incorrecto, esfuérzate para la próxima.
     </p>
 
     <div>
