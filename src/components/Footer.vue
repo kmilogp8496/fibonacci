@@ -1,4 +1,5 @@
 <script setup lang="ts">
+
 </script>
 
 <template>
@@ -8,7 +9,7 @@
     </RouterLink>
 
     <button class="icon-btn mx-2 !outline-none">
-      <div i="carbon-sun dark:carbon-moon" />
+      <div i="carbon-sun dark:carbon-moon" @click="toggleDark()" />
     </button>
 
     <RouterLink class="icon-btn mx-2" to="/about">
