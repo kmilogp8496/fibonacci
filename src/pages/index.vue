@@ -44,7 +44,7 @@ const onValidate = () => {
     <label class="hidden" for="input">Sucesión de Fibonacci</label>
 
     <div>
-      <CButton btn m-3 text-sm :disabled="!nextValue" @click="onValidate">
+      <CButton btn m-3 text-sm @click="onValidate">
         Comprobar
       </CButton>
     </div>
